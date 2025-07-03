@@ -21,7 +21,7 @@ export default function Page() {
 
       <div className="mx-auto max-w-4xl py-2 pt-8 lg:py-24">
 
-        <div className="text-center">
+        {/* <div className="text-center">
           <h1 className="text-lg sm:text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-300 md:text-4xl">
             “Aspires to be a pre-eminent deemed university of national standing in education and innovation”.
           </h1>
@@ -30,7 +30,7 @@ export default function Page() {
 
             Education, Government of West Bengal and affiliated to Maulana Abul Kalam Azad University of Technology, West Bengal (formerly West Bengal University of Technology) .
           </p>
-        </div>
+        </div> */}
       </div>
       <AboutCard />
     </div>
