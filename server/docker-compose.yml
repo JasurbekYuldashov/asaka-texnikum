@@ -2,27 +2,27 @@ version: '3'
 
 services:
   # Node.js server service
-  server:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    container_name: college-website-server
-    restart: unless-stopped
-    ports:
-      - "4000:4000"
-    environment:
-      - MONGO_URI=mongodb://mongo:27017/adminDB
-      - FRONTEND_URI=http://localhost:3000
-      - REFRESH_TOKEN_KEY=asakatuman2sonpolitexnikumi_refresh
-      - ACCESS_TOKEN_KEY=asakatuman2sonpolitexnikumi_access
-      - PORT=4000
-    volumes:
-      - ./:/app
-      - /app/node_modules
-    depends_on:
-      - mongo
-    networks:
-      - college-website-network
+  # server:
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile
+  #   container_name: college-website-server
+  #   restart: unless-stopped
+  #   ports:
+  #     - "4000:4000"
+  #   environment:
+  #     - MONGO_URI=mongodb://mongo:27017/adminDB
+  #     - FRONTEND_URI=http://localhost:3000
+  #     - REFRESH_TOKEN_KEY=asakatuman2sonpolitexnikumi_refresh
+  #     - ACCESS_TOKEN_KEY=asakatuman2sonpolitexnikumi_access
+  #     - PORT=4000
+  #   volumes:
+  #     - ./:/app
+  #     - /app/node_modules
+  #   depends_on:
+  #     - mongo
+  #   networks:
+  #     - college-website-network
 
   # MongoDB service
   mongo:
@@ -33,12 +33,12 @@ services:
       - mongo-data:/data/db
     ports:
       - "27017:27017"
-    networks:
-      - college-website-network
+    # networks:
+    #   - college-website-network
 
-networks:
-  college-website-network:
-    driver: bridge
+# networks:
+#   college-website-network:
+#     driver: bridge
 
 volumes:
   mongo-data:
