@@ -4,7 +4,7 @@ module.exports = {
       name: 'asaka-client',
       cwd: './client',
       script: 'npm',
-      args: 'start -p 3010',
+      args: 'start',
       env_file: './client/.env',
       env: {
         NODE_ENV: 'production'
