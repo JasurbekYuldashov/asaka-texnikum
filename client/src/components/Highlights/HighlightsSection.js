@@ -33,7 +33,7 @@ export default function HighlightsSection({ HorizontalScroll = true }) {
 		<>
 			<section className="text-gray-600 body-font mb-12">
 				<AnimatedElement>
-					<h1 className="m-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-4xl lg:text-5xl"><span className="text-transparent bg-clip-text bg-gradient-to-r to-blue-700 from-blue-400">| ASOSIY YO'NALISHLAR</span> :</h1>
+					<h1 className="m-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-4xl lg:text-5xl"><span className="text-transparent bg-clip-text bg-gradient-to-r to-blue-700 from-blue-400">| ASOSIY KASB YO'NALISHLARI</span> :</h1>
 				</AnimatedElement>
 				{Loader && <ParagraphSkeletonLoader />}
 				<div className={`lg:px-2 py-4 mx-auto ${HorizontalScroll ? "overflow-x-scroll" : "overflow-x-hidden"}`}>

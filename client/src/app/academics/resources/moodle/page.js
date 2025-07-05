@@ -7,7 +7,7 @@ export default function page() {
 
       <div className="text-center">
         <h1 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-300 md:text-4xl">
-          Academy of Technology moodle portal
+          Asaka 2-son Politexnikumi moodle portal
         </h1>
         <Link href={'http://182.74.215.198/moodle/'} className='hover:scale-110 hover:underline'>click here</Link>
 

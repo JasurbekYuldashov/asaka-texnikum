@@ -10,12 +10,12 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_BASEURL),
-  title: 'Academy of Technology',
-  description: 'Academy of Technology',
+  title: 'Asaka 2-son Politexnikumi',
+  description: 'Asaka 2-son Politexnikumi',
   generator: 'Next.js',
-  applicationName: 'Academy of Technology',
+  applicationName: 'Asaka 2-son Politexnikumi',
   referrer: 'origin-when-cross-origin',
-  keywords: ['Academy of Technology', 'soumojit', 'shome', 'soumojitshome', 'Next.js', 'React'],
+  keywords: ['Asaka 2-son Politexnikumi', 'soumojit', 'shome', 'soumojitshome', 'Next.js', 'React'],
 
   authors: [{ name: 'Soumojit Shome' }, { name: 'Soumojit Shome', url: 'https://soumojitshome.vercel.app' }],
   creator: 'Soumojit Shome',
@@ -32,10 +32,10 @@ export const metadata = {
   },
 
   openGraph: {
-    title: 'Academy of Technology',
-    description: 'Academy of Technology',
+    title: 'Asaka 2-son Politexnikumi',
+    description: 'Asaka 2-son Politexnikumi',
     url: '/logo.jpeg',
-    siteName: 'Academy of Technology',
+    siteName: 'Asaka 2-son Politexnikumi',
     images: [
       {
         url: '/logo.jpeg', // Must be an absolute URL
@@ -46,7 +46,7 @@ export const metadata = {
         url: '/logo.jpeg', // Must be an absolute URL
         width: 1800,
         height: 1600,
-        alt: 'Academy of Technology',
+        alt: 'Asaka 2-son Politexnikumi',
       },
     ],
     locale: 'en_US',
