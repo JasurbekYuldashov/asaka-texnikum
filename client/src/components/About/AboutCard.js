@@ -29,9 +29,9 @@ export default function AboutCard() {
             <AnimatedElement>
                 <section className="text-gray-600 body-font ">
                     <div className="mx-auto flex py-10 md:px-5 md:flex-row-reverse justify-center flex-col items-center">
-                        <div className="md:max-w-sm lg:max-w-md md:h-full w-full h-48 overflow-hidden flex justify-center items-center mb-4 md:mb-0">
-                            <img className="w-full md:rounded-lg" alt="hero" src="/images/collegepic(1).jpg" />
-                        </div>
+                        {/* <div className="md:max-w-sm lg:max-w-md md:h-full w-full h-48 overflow-hidden flex justify-center items-center mb-4 md:mb-0"> */}
+                            {/* <img className="w-full md:rounded-lg" alt="hero" src="/images/collegepic(1).jpg" /> */}
+                        {/* </div> */}
                         <div className="md:w-1/2 md:pr-8 flex flex-col md:items-start md:text-left items-center">
                             {/* <h1 className="title-font lg:text-3xl text-2xl mb-4 font-bold text-gray-900">“Aspires to be a pre-eminent deemed university of national standing in education and innovation”.
                             </h1> */}

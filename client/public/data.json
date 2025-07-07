@@ -1,244 +1,268 @@
 {
-    "CarouselImages": [
-        {
-            "ImageLink": "/images/1.jpg"
-        },
-        {
-            "ImageLink": "/images/2.jpg"
-        },
-        {
-            "ImageLink": "/images/3.jpg"
-        },
-        {
-            "ImageLink": "/images/4.jpg"
-        },
-        {
-            "ImageLink": "/images/5.jpg"
-        }
-    ],
-    "NoticeLineData": [
-        {
-            "Title": "Yangi o‘quv yili uchun qabul ochiq",
-            "Link": "/"
-        },
-        {
-            "Title": "ISHGA QABUL QILAMIZ!",
-            "Link": "/"
-        },
-        {
-            "Title": "Bitiruvchilar uchun kafolatlangan ish o‘rinlari",
-            "Link": "/"
-        }, 
-        {
-            "Title": "Zomonaviy jixozlangan o‘quv xonalari",
-            "Link": "/"
-        },
-        {
-            "Title": "Malakali pedagoglar",
-            "Link": "/"
-        }
-    ],
-    "DepartmentsData": [
-        {
-            "Title": "ECE",
-            "Keyword": "ece",
-            "Description": "4 yillik elektronika va aloqa muhandisligi bo'yicha B.Tech dasturi. Bo'lim boshlig'i: Dr. Abbos Aliyev.",
-            "PageLink": "/academics/departments/ece",
-            "BannerPic": "/images/Department-of-Electronics-Communication-Engineering-Image.jpg",
-            "PageRouteData": {
-                "DepartmentName": "Elektronika va aloqa muhandisligi bo'limi",
-                "YearofEstablishment": "2003-yil iyul",
-                "HODname": "Dr. Abbos Aliyev",
-                "HODContactMailId": "hod_ece@asaka2politexnikum.uz",
-                "DepartmentStaticData": "/RichText/ECE.html"
-            }
-        },
-        {
-            "Title": "CSE",
-            "Keyword": "cse",
-            "Description": "4 yillik kompyuter fanlari va muhandisligi bo'yicha B.Tech dasturi. Bo'lim boshlig'i: Prof. Jamshid Karimov",
-            "PageLink": "/academics/departments/cse",
-            "BannerPic": "/images/collegepic(6).jpg",
-            "PageRouteData": {
-                "DepartmentName": "Kompyuter fanlari va muhandisligi bo'limi",
-                "YearofEstablishment": "2003-yil iyul",
-                "HODname": "Prof. Jamshid Karimov",
-                "HODContactMailId": "hod_cse@asaka2politexnikum.uz",
-                "DepartmentStaticData": "/RichText/CSE.html"
-            }
-        },
-        {
-            "Title": "CSBS",
-            "Keyword": "csbs",
-            "Description": "4 yillik kompyuter fanlari va biznes tizimlari bo'yicha B.Tech dasturi. Bo'lim boshlig'i: Prof. Botir Xolmatov",
-            "PageLink": "/academics/departments/csbs",
-            "BannerPic": "/images/collegepic(2).jpg",
-            "PageRouteData": {
-                "DepartmentName": "Kompyuter fanlari va biznes tizimlari bo'limi",
-                "YearofEstablishment": "2020-yil iyul",
-                "HODname": "Prof. Botir Xolmatov",
-                "HODContactMailId": "hod_csbs@asaka2politexnikum.uz",
-                "DepartmentStaticData": "/RichText/CSBS.html"
-            }
-        },
-        {
-            "Title": "EE",
-            "Keyword": "ee",
-            "Description": "4 yillik elektrotexnika muhandisligi bo'yicha B.Tech dasturi. Bo'lim boshlig'i: Prof. Shavkat Ahmedov",
-            "PageLink": "/academics/departments/ee",
-            "BannerPic": "/images/collegepic(3).jpg",
-            "PageRouteData": {
-                "DepartmentName": "Elektrotexnika muhandisligi bo'limi",
-                "YearofEstablishment": "2003-yil iyul",
-                "HODname": "Prof. Shavkat Ahmedov",
-                "HODContactMailId": "hod_ee@asaka2politexnikum.uz",
-                "DepartmentStaticData": "/RichText/EE.html"
-            }
-        },
-        {
-            "Title": "EEE",
-            "Keyword": "eee",
-            "Description": "4 yillik elektr va elektronika muhandisligi bo'yicha B.Tech dasturi. Bo'lim boshlig'i: Prof. Oybek Raxmonov",
-            "PageLink": "/academics/departments/eee",
-            "BannerPic": "/images/collegepic(4).jpg",
-            "PageRouteData": {
-                "DepartmentName": "Elektr va elektronika muhandisligi bo'limi",
-                "YearofEstablishment": "2020-yil iyul",
-                "HODname": "Prof. Oybek Raxmonov",
-                "HODContactMailId": "hod_eee@asaka2politexnikum.uz",
-                "DepartmentStaticData": "/RichText/EEE.html"
-            }
-        },
-        {
-            "Title": "ME",
-            "Keyword": "me",
-            "Description": "4 yillik mexanika muhandisligi bo'yicha B.Tech dasturi. Bo'lim boshlig'i: Prof. Alisher Qodirov",
-            "PageLink": "/academics/departments/me",
-            "BannerPic": "/images/Department-of-Mechanical-Engineering-Image.jpg",
-            "PageRouteData": {
-                "DepartmentName": "Mexanika muhandisligi bo'limi",
-                "YearofEstablishment": "2009-yil iyul",
-                "HODname": "Prof. Alisher Qodirov",
-                "HODContactMailId": "hod_me@asaka2politexnikum.uz",
-                "DepartmentStaticData": "/RichText/ME.html"
-            }
-        }
-    ],
-    "HighlightsData": [
-        {
-            "Title": "Asaka tuman 2-son politexnikumida Texnologiya festivali",
-            "Description": "Asaka tuman 2-son politexnikumida o'tkaziladigan Texnologiya festivali - texnologiya sohasidagi innovatsiyalar va ijodni namoyish etadigan har yillik tadbirdir. U seminarlar, tanlovlar, ko'rgazmalar va sanoat ekspertlarining ma'ruzalarini o'z ichiga oladi. Talabalar o'z loyihalarini namoyish etish, amaliy o'rganish va mutaxassislar bilan muloqot qilish imkoniyatiga ega. Ushbu tadbir qatnashchilar orasida texnologiyaga bo'lgan qiziqishni rag'batlantirish va rivojlantirish, o'rganish va hamkorlik muhitini yaratishga qaratilgan.",
-            "PageLink": "/",
-            "BannerPic": "/images/collegepic(1).jpg"
-        },
-        {
-            "Title": "Asaka tuman 2-son politexnikumida O'yinlar festivali",
-            "Description": "Asaka tuman 2-son politexnikumida o'tkaziladigan O'yinlar festivali - o'yinlar va e-sport sohasiga qaratilgan har yillik yig'ilishdir. U musobaqa o'yinlari, erkin o'yin sessiyalari va interaktiv seminarlarni o'z ichiga oladi. Ishtirokchilar ommabop o'yinlarda raqobatlashish, o'yin ishlab chiqish haqida bilim olish va boshqa o'yin ishqibozlari bilan aloqa o'rnatish imkoniyatiga ega. Tadbir politexnikum ichida o'yin madaniyatini rivojlantirishga qaratilgan bo'lib, video o'yinlar dunyosida ham qiziqarli, ham ta'lim tajribasini rag'batlantiradi.",
-            "PageLink": "/",
-            "BannerPic": "/images/collegepic(2).jpg"
-        },
-        {
-            "Title": "Asaka tuman 2-son politexnikumida 'Ayollar kosmik muhandislikda' tadbiri",
-            "Description": "Asaka tuman 2-son politexnikumida o'tkaziladigan 'Ayollar kosmik muhandislikda' tadbiri - kosmik muhandislik sohasida ayollarning hissasini ko'rsatadigan nufuzli yig'ilishdir. Hurmatli oliy o'quv yurtlari professorlari va mashhur ayol olimlar o'z tajribalari, bilimlari va kosmik texnologiya sohasidagi yutuqlari bilan o'rtoqlashish uchun bir joyga yig'iladilar. Tadbir ilhomlantiruvchi suhbatlar, panel munozaralari va aloqa o'rnatish imkoniyatlarini o'z ichiga oladi, ayol talabalarni kosmik muhandislik va unga aloqador sohalarda karyera qilishga rag'batlantirish va qo'llab-quvvatlashga qaratilgan.",
-            "PageLink": "/",
-            "BannerPic": "/images/collegepic(3).jpg"
-        },
-        {
-            "Title": "Asaka tuman 2-son politexnikumida GDG sentabr uchrashuvlari",
-            "Description": "Asaka tuman 2-son politexnikumida Google Developer Group tomonidan tashkil etiladigan GDG sentabr uchrashuvlari - har oylik yig'ilish bo'lib, unda texnik suhbatlar, kod yozish sessiyalari va dasturchilar uchun bilim almashish va loyihalar ustida hamkorlik qilish imkoniyatlari taqdim etiladi.",
-            "PageLink": "/",
-            "BannerPic": "/images/collegepic(4).jpg"
-        }
-    ],
-    "EventsData": [
-        {
-            "Title": "Ta'lim dasturi",
-            "Description": "Politexnikumda zamonaviy texnologiyalar asosida o'quv dasturlari tashkil etilgan.",
-            "PageLink": "/",
-            "BannerPic": "/images/collegepic(1).jpg"
-        },
-        {
-            "Title": "Amaliy ta'lim",
-            "Description": "Nazariy bilimlar amaliy ko'nikmalar bilan mustahkamlanadi.",
-            "PageLink": "/",
-            "BannerPic": "/images/collegepic(2).jpg"
-        },
-        {
-            "Title": "Malakali mutaxassislar",
-            "Description": "Tajribali o'qituvchilar tomonidan yuqori sifatli ta'lim beriladi.",
-            "PageLink": "/",
-            "BannerPic": "/images/collegepic(3).jpg"
-        },
-        {
-            "Title": "Kasbiy yo'nalishlar",
-            "Description": "Turli sohalarda ish bilan ta'minlash imkoniyatlari mavjud.",
-            "PageLink": "/",
-            "BannerPic": "/images/collegepic(4).jpg"
-        }
-    ],
-    "CarrierAtAotData": [
-        {
-            "Title": "Moslashuvchan ish vaqti",
-            "Description": "Yetakchi institutlardan jalb qilingan nafaqadagi professorlar, ilmiy-tadqiqot tashkilotlaridan yuqori malakali mutaxassislar uchun moslashuvchan ish grafigi taqdim etiladi: semestr davomida 45-60 ish kuni, haftada 3-4 kun (semestrda 15 o'quv haftasini hisobga olgan holda). Qisman onlayn o'qitish imkoniyati ham ko'rib chiqilishi mumkin."
-        },
-        {
-            "Title": "Yuqori darajadagi ish haqi:",
-            "Description": "Asaka politexnikumi boshqa shunga o'xshash muassasalardagidan yuqori bo'lgan raqobatbardosh ish haqi paketlarini taqdim etadi. Magistr diplomidan so'ng 6 yillik to'liq stavkali o'qituvchilik/tadqiqot tajribasiga ega va doktoranturaga ro'yxatdan o'tgan assistent o'qituvchilar, assistent o'qituvchi [Yuqori daraja] lavozimiga da'vogarlik qilishlari mumkin. Magistrlik diplomidan so'ng 10 yillik to'liq stavkali o'qituvchilik/tadqiqot tajribasiga ega, doktoranturaga ro'yxatdan o'tgan va SCI indekslangan jurnallarda kamida bitta nashr etilgan maqolaga ega assistent o'qituvchilar, assistent o'qituvchi [Tanlov darajasi] lavozimiga da'vogarlik qilishlari mumkin."
-        },
-        {
-            "Title": "Karyerani rivojlantirish imkoniyatlari",
-            "Description": "Jonli va hamkorlikka asoslangan muhitda innovatsion va ilmiy-tadqiqot ishlari bilan shug'ullanish uchun keng imkoniyatlar mavjud. O'z salohiyatingizni to'liq rivojlantirish uchun qulay muhit va natijaga asoslangan rag'batlantirish tizimi. Yangi o'qituvchilar uchun tajribali akademiklar/sanoat ekspertlari tomonidan mentorlik qilish imkoniyatlari."
-        },
-        {
-            "Title": "Tadqiqot va nashr uchun 360 darajali qo'llab-quvvatlash:",
-            "Description": "Barcha o'qituvchilik lavozimlari uchun, maoshdan tashqari, kasbiy rivojlanish, ilmiy nashrlar, patentlar, davlat va sanoat homiyligidagi loyihalar, konferensiyalarda ishtirok etish, o'qituvchilarni rivojlantirish dasturlari va boshqalar uchun institut me'yorlariga muvofiq rag'batlantirish to'lovlari amalga oshiriladi. Sanoat 4.0 texnologiyalari bo'yicha maxsus tadqiqot laboratoriyalari tashkil etilmoqda."
-        },
-        {
-            "Title": "Ishga qabul e'loni, dekabr 2023",
-            "PostLocation": "12.12.23 sanasida mahalliy gazetalarda chop etilgan",
-            "Link": "/files/Add_12_12_23.pdf"
-        },
-        {
-            "Title": "Ishga qabul e'loni, 2023",
-            "PostLocation": "12.12.23 sanasida mahalliy gazetalarda chop etilgan",
-            "Link": "https://aot.edu.in/wp-content/uploads/2023/12/Add_12_12_23.pdf"
-        },
-        {
-            "Title": "Ishga qabul e'loni, 2023",
-            "PostLocation": "12.12.23 sanasida mahalliy gazetalarda chop etilgan",
-            "Link": "https://aot.edu.in/wp-content/uploads/2023/12/Add_12_12_23.pdf"
-        }
-    ],
-    "contact": [
-        {
-            "Title": "Qabul bo'limi: ",
-            "Tel": " +998-99-123-45-67",
-            "Email": " qabul@asaka2politexnikum.uz"
-        },
-        {
-            "Title": "Direktor idorasi:",
-            "Tel": "+998-99-765-43-21",
-            "Email": " direktor@asaka2politexnikum.uz"
-        },
-        {
-            "Title": "O'quv va imtihon bo'limi:",
-            "Tel": "+998-99-111-22-33",
-            "Email": "imtihon@asaka2politexnikum.uz"
-        },
-        {
-            "Title": "Ma'muriyat bo'limi:",
-            "Tel": "+998-99-444-55-66",
-            "Email": "admin@asaka2politexnikum.uz"
-        },
-        {
-            "Title": "Buxgalteriya bo'limi: ",
-            "Tel": " +998-99-777-88-99",
-            "Email": " buxgalteriya@asaka2politexnikum.uz"
-        },
-        {
-            "Title": "O'quv-mashg'ulot bo'limi: ",
-            "Tel": " +998-99-555-66-77",
-            "Email": " training@asaka2politexnikum.uz"
-        }
-    ]
+  "CarouselImages": [
+    {
+      "ImageLink": "/images/1.jpg"
+    },
+    {
+      "ImageLink": "/images/2.jpg"
+    },
+    {
+      "ImageLink": "/images/3.jpg"
+    },
+    {
+      "ImageLink": "/images/4.jpg"
+    },
+    {
+      "ImageLink": "/images/5.jpg"
+    }
+  ],
+  "NoticeLineData": [
+    {
+      "Title": "Yangi o‘quv yili uchun qabul ochiq",
+      "Link": "/"
+    },
+    {
+      "Title": "ISHGA QABUL QILAMIZ!",
+      "Link": "/"
+    },
+    {
+      "Title": "Bitiruvchilar uchun kafolatlangan ish o‘rinlari",
+      "Link": "/"
+    },
+    {
+      "Title": "Zomonaviy jixozlangan o‘quv xonalari",
+      "Link": "/"
+    },
+    {
+      "Title": "Malakali pedagoglar",
+      "Link": "/"
+    }
+  ],
+  "DepartmentsData": [
+    {
+      "Title": "ECE",
+      "Keyword": "ece",
+      "Description": "4 yillik elektronika va aloqa muhandisligi bo'yicha B.Tech dasturi. Bo'lim boshlig'i: Dr. Abbos Aliyev.",
+      "PageLink": "/academics/departments/ece",
+      "BannerPic": "/images/Department-of-Electronics-Communication-Engineering-Image.jpg",
+      "PageRouteData": {
+        "DepartmentName": "Elektronika va aloqa muhandisligi bo'limi",
+        "YearofEstablishment": "2003-yil iyul",
+        "HODname": "Dr. Abbos Aliyev",
+        "HODContactMailId": "hod_ece@asaka2politexnikum.uz",
+        "DepartmentStaticData": "/RichText/ECE.html"
+      }
+    },
+    {
+      "Title": "CSE",
+      "Keyword": "cse",
+      "Description": "4 yillik kompyuter fanlari va muhandisligi bo'yicha B.Tech dasturi. Bo'lim boshlig'i: Prof. Jamshid Karimov",
+      "PageLink": "/academics/departments/cse",
+      "BannerPic": "/images/c6).jpg",
+      "PageRouteData": {
+        "DepartmentName": "Kompyuter fanlari va muhandisligi bo'limi",
+        "YearofEstablishment": "2003-yil iyul",
+        "HODname": "Prof. Jamshid Karimov",
+        "HODContactMailId": "hod_cse@asaka2politexnikum.uz",
+        "DepartmentStaticData": "/RichText/CSE.html"
+      }
+    },
+    {
+      "Title": "CSBS",
+      "Keyword": "csbs",
+      "Description": "4 yillik kompyuter fanlari va biznes tizimlari bo'yicha B.Tech dasturi. Bo'lim boshlig'i: Prof. Botir Xolmatov",
+      "PageLink": "/academics/departments/csbs",
+      "BannerPic": "/images/c2).jpg",
+      "PageRouteData": {
+        "DepartmentName": "Kompyuter fanlari va biznes tizimlari bo'limi",
+        "YearofEstablishment": "2020-yil iyul",
+        "HODname": "Prof. Botir Xolmatov",
+        "HODContactMailId": "hod_csbs@asaka2politexnikum.uz",
+        "DepartmentStaticData": "/RichText/CSBS.html"
+      }
+    },
+    {
+      "Title": "EE",
+      "Keyword": "ee",
+      "Description": "4 yillik elektrotexnika muhandisligi bo'yicha B.Tech dasturi. Bo'lim boshlig'i: Prof. Shavkat Ahmedov",
+      "PageLink": "/academics/departments/ee",
+      "BannerPic": "/images/c3).jpg",
+      "PageRouteData": {
+        "DepartmentName": "Elektrotexnika muhandisligi bo'limi",
+        "YearofEstablishment": "2003-yil iyul",
+        "HODname": "Prof. Shavkat Ahmedov",
+        "HODContactMailId": "hod_ee@asaka2politexnikum.uz",
+        "DepartmentStaticData": "/RichText/EE.html"
+      }
+    },
+    {
+      "Title": "EEE",
+      "Keyword": "eee",
+      "Description": "4 yillik elektr va elektronika muhandisligi bo'yicha B.Tech dasturi. Bo'lim boshlig'i: Prof. Oybek Raxmonov",
+      "PageLink": "/academics/departments/eee",
+      "BannerPic": "/images/c4).jpg",
+      "PageRouteData": {
+        "DepartmentName": "Elektr va elektronika muhandisligi bo'limi",
+        "YearofEstablishment": "2020-yil iyul",
+        "HODname": "Prof. Oybek Raxmonov",
+        "HODContactMailId": "hod_eee@asaka2politexnikum.uz",
+        "DepartmentStaticData": "/RichText/EEE.html"
+      }
+    },
+    {
+      "Title": "ME",
+      "Keyword": "me",
+      "Description": "4 yillik mexanika muhandisligi bo'yicha B.Tech dasturi. Bo'lim boshlig'i: Prof. Alisher Qodirov",
+      "PageLink": "/academics/departments/me",
+      "BannerPic": "/images/Department-of-Mechanical-Engineering-Image.jpg",
+      "PageRouteData": {
+        "DepartmentName": "Mexanika muhandisligi bo'limi",
+        "YearofEstablishment": "2009-yil iyul",
+        "HODname": "Prof. Alisher Qodirov",
+        "HODContactMailId": "hod_me@asaka2politexnikum.uz",
+        "DepartmentStaticData": "/RichText/ME.html"
+      }
+    }
+  ],
+  "HighlightsData": [
+    {
+      "Title": "Аvtomobillarni ta’mirlash vа ularga servis xizmatkorsatish 9-sinf negizida",
+      "Description": "Kvalifikatsiyalar: 1.   Avtomobil yurish qismlariga texnik xizmat ko'rsatish va ta'mirlash chilangari 2.   Avtomobillar uzatmalar, qutisiga texnik xizmat ko'rsatish va ta’mirlash chilangari 3.  “В”  yoki  “ВС”  toifali haydovchi Ta’lim darajasi: Bo’shlang’ich professional ta’lim O’qish muddati:  2 yil",
+      "PageLink": "/",
+      "BannerPic": "/images/c1.jpg"
+    },
+    {
+      "Title": "Elektromontyor 9-sinf negizida",
+      "Description": "Kvalifikatsiyalar: 1.  Elektromontyor Ta’lim darajasi: Bo’shlang’ich professional  ta’lim O’qish muddati:  2 yil",
+      "PageLink": "/",
+      "BannerPic": "/images/c2.jpg"
+    },
+    {
+      "Title": "Payvandlovchi (elektrgazpayvandlash ishlari ) 9-sinf negizida",
+      "Description": "Kvalifikatsiylar: 1.   Elektrgazpayvandchi Ta’lim darajasi: Bo’shlang’ich professional ta’lim O’qish muddati:  2 yil",
+      "PageLink": "/",
+      "BannerPic": "/images/c3.jpg"
+    },
+    {
+      "Title": "Trаktorchi-mаshinist 9-sinf negizida",
+      "Description": "Kvalifikatsiyalar: 1.   Traktorchi-mashist 2.  “В”  yoki  “ВС”  toifali haydovchi Ta’lim darajasi: Bo’shlang’ich professional ta’lim O’qish muddati:  2 yil",
+      "PageLink": "/",
+      "BannerPic": "/images/c4.jpg"
+    },
+    {
+      "Title": "Tikuvchi 9-sinf negizida",
+      "Description": "Kvalifikatsiylar: 1.  Ayollar kiyim tikuvchisi 2.  Erkaklar kivim tikuvchisi 3.  Bolalar kiyimi tikuvchisi 4.  Ustki kivim tikuvchisi Ta’lim darajasi: Bo’shlang’ich professional ta’lim O’qish muddati:  2 yil",
+      "PageLink": "/",
+      "BannerPic": "/images/c5.jpg"
+    },
+    {
+      "Title": "Axborot vositalari mashinalari va kompyuter tarmoqlari  9-sinf negizida.",
+      "Description": "Kvalifikatsiyalar: 1. Axborot vositalari mashinalari va kompyuter tarmoqlari operatori. Ta’lim darajasi: Bo’shlang’ich professional ta’lim O’qish muddati:  2 yil",
+      "PageLink": "/",
+      "BannerPic": "/images/c6.jpg"
+    },
+    {
+      "Title": "Mexatronika (Sanoat robototexnikasi) 11-sinf negizida (Dual)",
+      "Description": "Kvalifikatsiylar: 1.  Texnik-mexatronik Ta’lim darajasi: O’rta professional ta’lim O’qish muddati:  2 yilgacha",
+      "PageLink": "/",
+      "BannerPic": "/images/c7.jpg"
+    },
+    {
+      "Title": "Transport logistikasi11-sinf negizida (Kunduzgi)",
+      "Description": "Kvalifikatsiylar: 1.  Avtotransport logistihisi 2.  Ombor logisti 3.       “В”  yoki  “ВС”  toifali haydovchi Ta’lim darajasi: O’rta maxsus professional ta’lim O’qish muddati:  2 yil",
+      "PageLink": "/",
+      "BannerPic": "/images/c8.jpg"
+    }
+  ],
+  "EventsData": [
+    {
+      "Title": "Ta'lim dasturi",
+      "Description": "Politexnikumda zamonaviy texnologiyalar asosida o'quv dasturlari tashkil etilgan.",
+      "PageLink": "/",
+      "BannerPic": "/images/c1.jpg"
+    },
+    {
+      "Title": "Amaliy ta'lim",
+      "Description": "Nazariy bilimlar amaliy ko'nikmalar bilan mustahkamlanadi.",
+      "PageLink": "/",
+      "BannerPic": "/images/c2.jpg"
+    },
+    {
+      "Title": "Malakali mutaxassislar",
+      "Description": "Tajribali o'qituvchilar tomonidan yuqori sifatli ta'lim beriladi.",
+      "PageLink": "/",
+      "BannerPic": "/images/c3.jpg"
+    },
+    {
+      "Title": "Kasbiy yo'nalishlar",
+      "Description": "Turli sohalarda ish bilan ta'minlash imkoniyatlari mavjud.",
+      "PageLink": "/",
+      "BannerPic": "/images/c4.jpg"
+    }
+  ],
+  "CarrierAtAotData": [
+    {
+      "Title": "Moslashuvchan ish vaqti",
+      "Description": "Yetakchi institutlardan jalb qilingan nafaqadagi professorlar, ilmiy-tadqiqot tashkilotlaridan yuqori malakali mutaxassislar uchun moslashuvchan ish grafigi taqdim etiladi: semestr davomida 45-60 ish kuni, haftada 3-4 kun (semestrda 15 o'quv haftasini hisobga olgan holda). Qisman onlayn o'qitish imkoniyati ham ko'rib chiqilishi mumkin."
+    },
+    {
+      "Title": "Yuqori darajadagi ish haqi:",
+      "Description": "Asaka politexnikumi boshqa shunga o'xshash muassasalardagidan yuqori bo'lgan raqobatbardosh ish haqi paketlarini taqdim etadi. Magistr diplomidan so'ng 6 yillik to'liq stavkali o'qituvchilik/tadqiqot tajribasiga ega va doktoranturaga ro'yxatdan o'tgan assistent o'qituvchilar, assistent o'qituvchi [Yuqori daraja] lavozimiga da'vogarlik qilishlari mumkin. Magistrlik diplomidan so'ng 10 yillik to'liq stavkali o'qituvchilik/tadqiqot tajribasiga ega, doktoranturaga ro'yxatdan o'tgan va SCI indekslangan jurnallarda kamida bitta nashr etilgan maqolaga ega assistent o'qituvchilar, assistent o'qituvchi [Tanlov darajasi] lavozimiga da'vogarlik qilishlari mumkin."
+    },
+    {
+      "Title": "Karyerani rivojlantirish imkoniyatlari",
+      "Description": "Jonli va hamkorlikka asoslangan muhitda innovatsion va ilmiy-tadqiqot ishlari bilan shug'ullanish uchun keng imkoniyatlar mavjud. O'z salohiyatingizni to'liq rivojlantirish uchun qulay muhit va natijaga asoslangan rag'batlantirish tizimi. Yangi o'qituvchilar uchun tajribali akademiklar/sanoat ekspertlari tomonidan mentorlik qilish imkoniyatlari."
+    },
+    {
+      "Title": "Tadqiqot va nashr uchun 360 darajali qo'llab-quvvatlash:",
+      "Description": "Barcha o'qituvchilik lavozimlari uchun, maoshdan tashqari, kasbiy rivojlanish, ilmiy nashrlar, patentlar, davlat va sanoat homiyligidagi loyihalar, konferensiyalarda ishtirok etish, o'qituvchilarni rivojlantirish dasturlari va boshqalar uchun institut me'yorlariga muvofiq rag'batlantirish to'lovlari amalga oshiriladi. Sanoat 4.0 texnologiyalari bo'yicha maxsus tadqiqot laboratoriyalari tashkil etilmoqda."
+    },
+    {
+      "Title": "Ishga qabul e'loni, dekabr 2023",
+      "PostLocation": "12.12.23 sanasida mahalliy gazetalarda chop etilgan",
+      "Link": "/files/Add_12_12_23.pdf"
+    },
+    {
+      "Title": "Ishga qabul e'loni, 2023",
+      "PostLocation": "12.12.23 sanasida mahalliy gazetalarda chop etilgan",
+      "Link": "https://aot.edu.in/wp-content/uploads/2023/12/Add_12_12_23.pdf"
+    },
+    {
+      "Title": "Ishga qabul e'loni, 2023",
+      "PostLocation": "12.12.23 sanasida mahalliy gazetalarda chop etilgan",
+      "Link": "https://aot.edu.in/wp-content/uploads/2023/12/Add_12_12_23.pdf"
+    }
+  ],
+  "contact": [
+    {
+      "Title": "Qabul bo'limi: ",
+      "Tel": " +998-99-123-45-67",
+      "Email": " qabul@asaka2politexnikum.uz"
+    },
+    {
+      "Title": "Direktor idorasi:",
+      "Tel": "+998-99-765-43-21",
+      "Email": " direktor@asaka2politexnikum.uz"
+    },
+    {
+      "Title": "O'quv va imtihon bo'limi:",
+      "Tel": "+998-99-111-22-33",
+      "Email": "imtihon@asaka2politexnikum.uz"
+    },
+    {
+      "Title": "Ma'muriyat bo'limi:",
+      "Tel": "+998-99-444-55-66",
+      "Email": "admin@asaka2politexnikum.uz"
+    },
+    {
+      "Title": "Buxgalteriya bo'limi: ",
+      "Tel": " +998-99-777-88-99",
+      "Email": " buxgalteriya@asaka2politexnikum.uz"
+    },
+    {
+      "Title": "O'quv-mashg'ulot bo'limi: ",
+      "Tel": " +998-99-555-66-77",
+      "Email": " training@asaka2politexnikum.uz"
+    }
+  ]
 }

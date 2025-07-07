@@ -8,42 +8,46 @@ import AnimatedElement from '@/components/Common/Animation/AnimatedElement';
 export default function Accordion() {
     const AccordionData = [
         {
-            "title": "O'qishga kirish vaqtida oddiy talabalar uchun to'lanadigan umumiy to'lov qancha?",
-            "description": "O'qishga kirish vaqtida oddiy talabalar uchun to'lanadigan umumiy to'lov 5,000,000 so'm."
+          title: "Ўқишга кимлар қабул қилинади?",
+          description: "Умумтаълим мактаблари, ихтисослаштирилган мактаблар ҳамда махсус мактабларни 9-синифини ҳамда 11-синифини таъмомлаган ўқувчилар белгиланган тартибда ўқишга қабул қилинадилар."
         },
         {
-            "title": "Imtiyozli talabalar uchun o'qishga kirish to'lovi qancha?",
-            "description": "Imtiyozli talabalar uchun o'qishga kirish to'lovi 2,500,000 so'm."
+          title: "Таълим олиш пулликми?",
+          description: "Умумтаълим мактаблари, ихтисослаштирилган мактаблар ҳамда махсус мактабларни 9-синифини тамомлаган ўқувчилар 2 йиллик бепул таълим оладилар. 11-синифини тамомлаганлар белгиланган контракт тўловлари асосида таълим оладилар. Олий таълим, фан ва инновациялар вазирлиги томонидан белгилаб берилган айрим кундузги таълим босқичлари бепул амалга оширилади."
         },
         {
-            "title": "Bir semestr uchun o'qish to'lovi qancha?",
-            "description": "Bir semestr uchun o'qish to'lovi 2,500,000 so'm."
+          title: "Таълим муассасасидаги қўшимча хизматлар пуллик йўлга қўйилганми?",
+          description: "Таълим муассасасидаги барча қўшимча хизматлар, хусусан компьютер хоналаридан фойдаланиш, кутубхонадан фойдаланиш, фан ва касб тўгараклари, тил курслари ва ҳоказолар бепул йўлга қўйилган."
         },
         {
-            "title": "Politexnikum tomonidan qo'shimcha to'lovlar talab qilinadimi?",
-            "description": "Ha, qo'shimcha to'lovlar talab qilinadi, jumladan: 1) Rivojlantirish fondi uchun yillik 55,000 so'm 2) Ro'yxatga olish uchun bir martalik 50,000 so'm to'lov"
+          title: "Таълим муассасасини тамомлагандан сўнг қандай ҳужжат берилади?",
+          description: "Таълим муассасасини тамомлаган ўқувчиларга 3, 4 ва 5 даражадаги халқаро тан олинган давлат намунасидаги профессионал таълим дипломлари берилади."
         },
         {
-            "title": "Depozit to'lovlari qaytariladimi?",
-            "description": "Ha, 1,000,000 so'mlik depozit to'lovi qaytariladi."
+          title: "Ўқишга қабул қилиш имтиҳон асосида амалга ошириладими?",
+          description: "9 ва 11-синифни тамомлаган ўқувчилар таълим муассасасига суҳбат асосида қабул қилинади."
         },
         {
-            "title": "To'lovlar qanday amalga oshiriladi?",
-            "description": "To'lovlar naqd pul yoki 'АСАКА ТУМАН 2-СОН ПОЛИТЕХНИКУМИ' nomiga pul o'tkazmasi orqali amalga oshirilishi mumkin."
+          title: "Таълим муассасасини тамомлагандан сўнг қандай имкониятлар мавжуд?",
+          description: "Тамомлаганларга давлат намунасидаги диплом билан биргаликда белгиланган тартибда ҳайдовчилик гувоҳномаси олиш учун расмий ҳужжатлар тайёрланади, имтиҳонларга тайёргарлик кўрсатилади ва ўз мутахассисликлари бўйича ишга жойлаштирилади."
         },
         {
-            "title": "O'qish to'lovlari o'zgarishi mumkinmi?",
-            "description": "Ha, o'qish to'lovlari O'zbekiston Respublikasi Vazirlar Mahkamasining qarorlari asosida o'zgartirilishi mumkin."
+          title: "Ўқишга топшириш учун қандай ҳужжатлар талаб этилади?",
+          description: "Аттестат, 2x4 ҳажмда 6 дона фотосурат, ота-онасининг паспорт нусҳалари ва тиббий маълумотнома."
         },
         {
-            "title": "Talabalar sug'urtasi nima va u qanchaga tushadi?",
-            "description": "Talabalar sug'urtasi - bu talabalar uchun tibbiy sug'urta bo'lib, uning narxi bir martalik 250,000 so'm to'lovni tashkil etadi."
+          title: "9-синифни бир неча йил аввал тамомлаган ўқувчи ўқишга қабул қилинадими?",
+          description: "Олий таълим, фан ва инновациялар вазирлигининг кўрсатмаларига асосан, 9-синифни бир неча йил аввал тамомлаган ўқувчилар ҳам ўқишга қабул қилинади."
         },
         {
-            "title": "Kutubxona xizmatlari uchun to'lov qancha?",
-            "description": "Kutubxona to'lovi, kitoblar, jurnallar va raqamli kutubxonadan foydalanishni o'z ichiga oladi va bir martalik 600,000 so'm to'lovni tashkil qiladi."
+          title: "Дарс машғулотлари қандай вақтларда олиб борилади?",
+          description: "Ўқувчилар сонига қараб 1 ёки 2 сменада: 1-смена 13:30 гача, 2-смена 18:00 гача."
+        },
+        {
+          title: "Таълим муассасасида кундузги, кечки ва сиртқи таълим шакллари мавжудми?",
+          description: "2025–2026 ўқув йилида кундузги ва \"Дуал\" таълим йўлга қўйилган. Кечки ва сиртқи таълим шаклларини йўлга қўйиш режалаштирилган."
         }
-    ]
+      ];      
 
     return (
         <div className='mb-10'>

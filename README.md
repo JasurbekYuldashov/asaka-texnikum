@@ -6,10 +6,10 @@
     <img src="https://github.com/Soumojitshome2023/college-website-nextjs/blob/master/Readmeassets/CollegeLogo.png" alt="College Logo" width="150" >
   </a>
 
-  <h3 align="center">College Website (Academy Of Technology)</h3>
+  <h3 align="center">College Website (Asaka 2-son Politexnikumi)</h3>
 
   <p align="center">
-    Welcome to the official repository for the Academy of Technology's college website. This project is developed as part of a college-level website design challenge. The website provides comprehensive information about the college, including events, notices, departments, and more.
+    Welcome to the official repository for the Asaka 2-son Politexnikumi's college website. This project is developed as part of a college-level website design challenge. The website provides comprehensive information about the college, including events, notices, departments, and more.
     <br />
     <br />
     <a target="_blank" href="https://aotedu.vercel.app/">Live Link</a>

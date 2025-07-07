@@ -43,7 +43,7 @@ export default function Footer() {
             </div>
 
             {/* Downloads */}
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            {/* <div className="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 className="title-font font-bold text-white tracking-widest text-lg mb-3">O'quv dasturlari</h2>
               <nav className="list-none mb-10">
                 <li>
@@ -65,7 +65,7 @@ export default function Footer() {
                   <a target='_blank' href='#' className="text-white hover:text-gray-300 cursor-pointer"> &#8658; Texnik ta'minot</a>
                 </li>
               </nav>
-            </div>
+            </div> */}
             {/* Admission Enquiry */}
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 className="title-font font-bold text-white tracking-widest text-lg mb-3">Qabul ma'lumotlari</h2>
