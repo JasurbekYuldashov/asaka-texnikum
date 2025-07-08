@@ -21,7 +21,7 @@ function NavLinks() {
       path: "/contact",
     },
     {
-      title: "Tadbirlar",
+      title: "Yangiliklar",
       path: "/events",
     },
     {
@@ -33,7 +33,7 @@ function NavLinks() {
       title: "O'quv jarayoni",
       links: [
         {
-          title: "Bo'limlar",
+          title: "Rahbariyat",
           path: "/academics/departments",
         },
         {
@@ -47,7 +47,7 @@ function NavLinks() {
       ]
     },
     {
-      title: "Bitiruvchilar",
+      title: "Talabalar",
       path: "/alumni",
     },
     // {

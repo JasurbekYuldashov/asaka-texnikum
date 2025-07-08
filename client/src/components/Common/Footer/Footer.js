@@ -18,7 +18,7 @@ export default function Footer() {
           {/* Footer Links  */}
           {/* Departments */}
           <AnimatedElement className=" flex-grow flex flex-wrap mb-10 text-left order-first">
-            <div className="lg:w-2/5 md:w-1/2 w-full px-4">
+            {/* <div className="lg:w-2/5 md:w-1/2 w-full px-4">
               <h2 className="title-font font-bold text-white tracking-widest text-lg mb-3">Bo'limlar</h2>
               <nav className="list-none mb-10">
                 <li>
@@ -40,7 +40,7 @@ export default function Footer() {
                   <Link href="/academics/departments/me" className="text-white hover:text-gray-300 cursor-pointer"> &#8658; Mexanika va avtomatika</Link>
                 </li>
               </nav>
-            </div>
+            </div> */}
 
             {/* Downloads */}
             {/* <div className="lg:w-1/4 md:w-1/2 w-full px-4">
