@@ -11,7 +11,8 @@ export default function Footer() {
 
           {/* G Map  */}
           <AnimatedElement className=' rounded-lg '>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9663095343087!2d72.24576661570672!3d40.74136487932788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bce73964920a51%3A0xa7fee29ae949485f!2sAsaka%2C%20O%60zbekiston!5e0!3m2!1suz!2s!4v1638183019041!5m2!1suz!2s" width="100%" height="400" style={{ border: "0" }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.1234567890123!2d72.23456789012345!3d40.76543210987654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bce73964920a51%3A0xa7fee29ae949485f!2sMarg'iloniy%20ko'chasi%2C%20Asaka%2C%20O%60zbekiston!5e0!3m2!1suz!2s!4v1638183019041!5m2!1suz!2s" width="100%" height="400" style={{ border: "0" }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe> */}
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1320.4690205886423!2d72.22620565541229!3d40.62105188136669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bc8fda477b095d%3A0x274b38e00df12e5b!2sQishloq%20hojaligi!5e1!3m2!1sen!2s!4v1752003644959!5m2!1sen!2s"  width="100%" height="400" style={{ border: "0" }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </AnimatedElement>
 
 
@@ -106,9 +107,9 @@ export default function Footer() {
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 className="title-font font-bold text-white tracking-widest text-lg mb-3">Manzil</h2>
 
-              <p className="text-white hover:text-gray-300 cursor-pointer">Asaka tumani,</p>
-              <p className="text-white hover:text-gray-300 cursor-pointer">Mustaqillik ko'chasi, 5-uy</p>
-              <p className="text-white hover:text-gray-300 cursor-pointer">Andijon viloyati</p>
+              <p className="text-white hover:text-gray-300 cursor-pointer">Andijon viloyati,</p>
+              <p className="text-white hover:text-gray-300 cursor-pointer">Asaka tumani, Chok MFY,</p>
+              <p className="text-white hover:text-gray-300 cursor-pointer">Marg'iloniy ko'chasi, 93-a-uy</p>
               <p className="text-white hover:text-gray-300 cursor-pointer">O'zbekiston, 170200</p>
               <p className="text-white hover:text-gray-300 cursor-pointer">asaka.politexnikum@edu.uz</p>
               <h4 className="text-white hover:text-gray-300 cursor-pointer">+998 99 123-45-67</h4>

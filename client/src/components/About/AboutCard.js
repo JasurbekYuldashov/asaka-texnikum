@@ -10,7 +10,7 @@ export default function AboutCard() {
 
             <AnimatedElement>
                 <section className="text-gray-600 body-font ">
-                    <div className="mx-auto flex py-6 md:px-5 md:flex-row justify-center flex-col items-center">
+                    <div className="mx-auto flex md:px-5 md:flex-row justify-center flex-col items-center">
                         <div className="md:max-w-sm lg:max-w-md md:h-full w-full h-48 overflow-hidden flex justify-center items-center mb-4 md:mb-0">
                             {/* <img className="w-full md:rounded-lg" alt="hero" src="/images/collegepic(1).jpg" /> */}
                             <video className="w-full md:rounded-lg" alt="hero" src='/Video/AOTCampus.mp4' autoPlay muted loop />
@@ -19,7 +19,7 @@ export default function AboutCard() {
                             {/* <h1 className="title-font lg:text-3xl text-2xl mb-4 font-bold text-gray-900">
                                 “Aspires to be a pre-eminent deemed university of national standing in education and innovation”.
                             </h1> */}
-                            <p className="mb-8 leading-relaxed font-medium text-sm sm:text-lg p-2">Асака туман 2-сон политехникуми (собиқ Асака қишлоқ хўжалик касб-ҳунар коллежи) 1999 йил сентябр ойида ташкил топган. Ўзбекистон Республикаси Вазирлар Маҳкамасининг 1998 йил 23 сентябрдаги 406-сонли қарорига мувофиқ таълим муассасаси ташкил топган. <span className='font-bold'>Таълим муассаса 1999 йил 28 июлда 259/1 сон билан давлат рўйхатидан ўтказилган.</span></p>
+                            <p className=" leading-relaxed font-medium text-sm sm:text-lg p-2">Асака туман 2-сон политехникуми (собиқ Асака қишлоқ хўжалик касб-ҳунар коллежи) 1999 йил сентябр ойида ташкил топган. Ўзбекистон Республикаси Вазирлар Маҳкамасининг 1998 йил 23 сентябрдаги 406-сонли қарорига мувофиқ таълим муассасаси ташкил топган. <span className='font-bold'>Таълим муассаса 1999 йил 28 июлда 259/1 сон билан давлат рўйхатидан ўтказилган.</span></p>
                         </div>
                     </div>
                 </section>
@@ -28,7 +28,7 @@ export default function AboutCard() {
 
             <AnimatedElement>
                 <section className="text-gray-600 body-font ">
-                    <div className="mx-auto flex py-10 md:px-5 md:flex-row-reverse justify-center flex-col items-center">
+                    <div className="mx-auto flex md:px-5 md:flex-row-reverse justify-center flex-col items-center">
                         {/* <div className="md:max-w-sm lg:max-w-md md:h-full w-full h-48 overflow-hidden flex justify-center items-center mb-4 md:mb-0"> */}
                             {/* <img className="w-full md:rounded-lg" alt="hero" src="/images/collegepic(1).jpg" /> */}
                         {/* </div> */}
