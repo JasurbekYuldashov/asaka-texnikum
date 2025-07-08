@@ -25,7 +25,7 @@ function NavLinks() {
       path: "/events",
     },
     {
-      title: "Yangiliklar",
+      title: "Yo'nalishlar",
       path: "/highlights",
     },
     {
