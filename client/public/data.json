@@ -40,11 +40,13 @@
   ],
   "DepartmentsData": [
     {
-      "Title": "ECE",
-      "Keyword": "ece",
-      "Description": "4 yillik elektronika va aloqa muhandisligi bo'yicha B.Tech dasturi. Bo'lim boshlig'i: Dr. Abbos Aliyev.",
+      "Title": "Direktor",
+      "Keyword": "Direktor",
+      "ism": "Kambarova Zulfiya Mirzakarimovna",
+      "Description": "1995 yil Andijon davlat tillar pedagogika institutini tamomlagan",
+      "qabul": "Qabul kunlari dushanbadan jumagacha soat 13 00 dan 16 00 gacha",
       "PageLink": "/academics/departments/ece",
-      "BannerPic": "/images/Department-of-Electronics-Communication-Engineering-Image.jpg",
+      "BannerPic": "/images/direktor.png",
       "PageRouteData": {
         "DepartmentName": "Elektronika va aloqa muhandisligi bo'limi",
         "YearofEstablishment": "2003-yil iyul",
@@ -54,11 +56,13 @@
       }
     },
     {
-      "Title": "CSE",
-      "Keyword": "cse",
+      "Title": "O‘quv ishlar bo‘yicha direktor o‘rinbosari",
+      "Keyword": "direktor o‘rinbosari",
+      "ism": "Mirzaev Akramjon Djumanazarovich",
       "Description": "4 yillik kompyuter fanlari va muhandisligi bo'yicha B.Tech dasturi. Bo'lim boshlig'i: Prof. Jamshid Karimov",
+      "qabul": "Qabul kunlari dushanbadan jumagacha soat 13 00 dan 16 00 gacha",
       "PageLink": "/academics/departments/cse",
-      "BannerPic": "/images/c6).jpg",
+      "BannerPic": "/images/akramjon.png",
       "PageRouteData": {
         "DepartmentName": "Kompyuter fanlari va muhandisligi bo'limi",
         "YearofEstablishment": "2003-yil iyul",
@@ -68,11 +72,13 @@
       }
     },
     {
-      "Title": "CSBS",
-      "Keyword": "csbs",
-      "Description": "4 yillik kompyuter fanlari va biznes tizimlari bo'yicha B.Tech dasturi. Bo'lim boshlig'i: Prof. Botir Xolmatov",
+      "Title": "Yoshlar ishlar bo‘yicha direktor o‘rinbosari",
+      "Keyword": "direktor o'rin bosari",
+      "ism": "Sayfutdinova Oydinoy Pozilovna",
+      "Description": " 1985 yil Farg‘ona politexnika instituti, 2002 yil Nizomiy nomidagi Toshkent davlat universitetini tamomlagan",
+      "qabul": "Qabul kunlari dushanbadan jumagacha soat 13 00 dan 16 00 gacha",
       "PageLink": "/academics/departments/csbs",
-      "BannerPic": "/images/c2).jpg",
+      "BannerPic": "/images/oydinoy.png",
       "PageRouteData": {
         "DepartmentName": "Kompyuter fanlari va biznes tizimlari bo'limi",
         "YearofEstablishment": "2020-yil iyul",
@@ -82,45 +88,35 @@
       }
     },
     {
-      "Title": "EE",
-      "Keyword": "ee",
-      "Description": "4 yillik elektrotexnika muhandisligi bo'yicha B.Tech dasturi. Bo'lim boshlig'i: Prof. Shavkat Ahmedov",
+      "Title": "Kasbiy talim bo‘yicha direktor o‘rinbosari",
+      "Keyword": "direktor o'rin bosari",
+      "ism":"Sirimsaqov Maxmudjon Xojalievich",
+      "Description": " 1988 yil Sverdlovsk muhandislik muallimlik institutini tamomlagan",
+      "qabul": "Qabul kunlari dushanbadan jumagacha soat 13 00 dan 16 00 gacha",
       "PageLink": "/academics/departments/ee",
-      "BannerPic": "/images/c3).jpg",
+      "BannerPic": "/images/maxudjon.png",
       "PageRouteData": {
         "DepartmentName": "Elektrotexnika muhandisligi bo'limi",
         "YearofEstablishment": "2003-yil iyul",
-        "HODname": "Prof. Shavkat Ahmedov",
+        "HODname": "Prof. Shavkat ",
         "HODContactMailId": "hod_ee@asaka2politexnikum.uz",
         "DepartmentStaticData": "/RichText/EE.html"
       }
     },
     {
-      "Title": "EEE",
-      "Keyword": "eee",
+      "Title": "O‘quv bo‘lim uslubchisi",
+      "Keyword": "O‘quv bo‘lim uslubchisi",
+      "ism": "G‘aniyeva Dildora Axmadjonovna",
       "Description": "4 yillik elektr va elektronika muhandisligi bo'yicha B.Tech dasturi. Bo'lim boshlig'i: Prof. Oybek Raxmonov",
+      "qabul": "Qabul kunlari dushanbadan jumagacha soat 13 00 dan 16 00 gacha",
       "PageLink": "/academics/departments/eee",
-      "BannerPic": "/images/c4).jpg",
+      "BannerPic": "/images/dildora.png",
       "PageRouteData": {
         "DepartmentName": "Elektr va elektronika muhandisligi bo'limi",
         "YearofEstablishment": "2020-yil iyul",
         "HODname": "Prof. Oybek Raxmonov",
         "HODContactMailId": "hod_eee@asaka2politexnikum.uz",
         "DepartmentStaticData": "/RichText/EEE.html"
-      }
-    },
-    {
-      "Title": "ME",
-      "Keyword": "me",
-      "Description": "4 yillik mexanika muhandisligi bo'yicha B.Tech dasturi. Bo'lim boshlig'i: Prof. Alisher Qodirov",
-      "PageLink": "/academics/departments/me",
-      "BannerPic": "/images/Department-of-Mechanical-Engineering-Image.jpg",
-      "PageRouteData": {
-        "DepartmentName": "Mexanika muhandisligi bo'limi",
-        "YearofEstablishment": "2009-yil iyul",
-        "HODname": "Prof. Alisher Qodirov",
-        "HODContactMailId": "hod_me@asaka2politexnikum.uz",
-        "DepartmentStaticData": "/RichText/ME.html"
       }
     }
   ],

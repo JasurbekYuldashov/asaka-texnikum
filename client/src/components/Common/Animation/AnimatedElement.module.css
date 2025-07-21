@@ -13,3 +13,8 @@
     transform: translateY(0);
     /* Move up when visible */
 }
+
+
+.card {
+    height: 620px;
+}

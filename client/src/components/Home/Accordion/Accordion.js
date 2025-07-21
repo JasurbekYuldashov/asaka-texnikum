@@ -1,3 +1,4 @@
+
 "use client"
 // ======================== Imports ========================
 import 'flowbite';
@@ -8,46 +9,46 @@ import AnimatedElement from '@/components/Common/Animation/AnimatedElement';
 export default function Accordion() {
     const AccordionData = [
         {
-          title: "Ўқишга кимлар қабул қилинади?",
-          description: "Умумтаълим мактаблари, ихтисослаштирилган мактаблар ҳамда махсус мактабларни 9-синифини ҳамда 11-синифини таъмомлаган ўқувчилар белгиланган тартибда ўқишга қабул қилинадилар."
+            title: "O'qishga kimlar qabul qilinadi?",
+            description: "Umumta'lim maktablari, ixtisoslashtirilgan maktablar hamda maxsus maktablarni 9-sinfini hamda 11-sinfini tamomlagano'quvchilar belgilangan tartibda o'qishga qabul qilinadlar."
         },
         {
-          title: "Таълим олиш пулликми?",
-          description: "Умумтаълим мактаблари, ихтисослаштирилган мактаблар ҳамда махсус мактабларни 9-синифини тамомлаган ўқувчилар 2 йиллик бепул таълим оладилар. 11-синифини тамомлаганлар белгиланган контракт тўловлари асосида таълим оладилар. Олий таълим, фан ва инновациялар вазирлиги томонидан белгилаб берилган айрим кундузги таълим босқичлари бепул амалга оширилади."
+            title: "Ta'lim olish pullikmi?",
+            description: "Umumta'lim maktablari, ixtisoslashtirilgan maktablar hamda maxsus maktablarni 9-sinfini tamomlagano'quvchilar 2 yillik bepul ta'lim oladilar. 11-sinfini tamomlagan belgilangan kontrakt to'lovlari asosida ta'lim oladilar. Oliy ta'lim, fan va innovatsiyalar vazirligi tomonidan belgilab berilgan ayrim kunduzgi ta'lim bosqichlari bepul amalga oshiriladi."
         },
         {
-          title: "Таълим муассасасидаги қўшимча хизматлар пуллик йўлга қўйилганми?",
-          description: "Таълим муассасасидаги барча қўшимча хизматлар, хусусан компьютер хоналаридан фойдаланиш, кутубхонадан фойдаланиш, фан ва касб тўгараклари, тил курслари ва ҳоказолар бепул йўлга қўйилган."
+            title: "Ta'lim muassasasidagi qo'shimcha xizmatlar pullik yo'lga qo'yilganmi?",
+            description: "Ta'lim muassasasidagi barcha qo'shimcha xizmatlar, xususan kompyuter xonalaridan foydalanish, kutubxonadan foydalanish, fan va kasb to'garaklari, til kurslari va hokazolar bepul yo'lga qo'yilgan."
         },
         {
-          title: "Таълим муассасасини тамомлагандан сўнг қандай ҳужжат берилади?",
-          description: "Таълим муассасасини тамомлаган ўқувчиларга 3, 4 ва 5 даражадаги халқаро тан олинган давлат намунасидаги профессионал таълим дипломлари берилади."
+            title: "Ta'lim muassasasini tamomlagan dan so'ng qanday hujjat beriladi?",
+            description: "Ta'lim muassasasini tamomlagano'quvchilarga 3, 4 va 5 darajadagi xalqaro tan olingan davlat namunsidagi professional ta'lim diplomlari beriladi."
         },
         {
-          title: "Ўқишга қабул қилиш имтиҳон асосида амалга ошириладими?",
-          description: "9 ва 11-синифни тамомлаган ўқувчилар таълим муассасасига суҳбат асосида қабул қилинади."
+            title: "O'qishga qabul qilish imtihon asosida amalga oshiriladimi?",
+            description: "9 va 11-sinfni tamomlagano'quvchilar ta'lim muassasasiga suhbat asosida qabul qilinadi."
         },
         {
-          title: "Таълим муассасасини тамомлагандан сўнг қандай имкониятлар мавжуд?",
-          description: "Тамомлаганларга давлат намунасидаги диплом билан биргаликда белгиланган тартибда ҳайдовчилик гувоҳномаси олиш учун расмий ҳужжатлар тайёрланади, имтиҳонларга тайёргарлик кўрсатилади ва ўз мутахассисликлари бўйича ишга жойлаштирилади."
+            title: "Ta'lim muassasasini tamomlaganadan so'ng qanday imkoniyatlar mavjud?",
+            description: "Tamomlagan larga davlat namunsidagi diplom bilan birlikda belgilangan tartibda haydovchilik guvohnomasi olish uchun rasmiy hujjatlar tayyorlanadi, imtijonlarga tayyorgarlik ko'rsatiladi va o'z mutaxasisliklari bo'yicha ishga joylashtiriladi."
         },
         {
-          title: "Ўқишга топшириш учун қандай ҳужжатлар талаб этилади?",
-          description: "Аттестат, 2x4 ҳажмда 6 дона фотосурат, ота-онасининг паспорт нусҳалари ва тиббий маълумотнома."
+            title: "O'qishga topshirish uchun qanday hujjatlar talab etiladi?",
+            description: "Attestat, 2x4 hajmda 6 dona fotosurat, ota-onasining pasport nusxalari va tibbiy ma'lumotnoma."
         },
         {
-          title: "9-синифни бир неча йил аввал тамомлаган ўқувчи ўқишга қабул қилинадими?",
-          description: "Олий таълим, фан ва инновациялар вазирлигининг кўрсатмаларига асосан, 9-синифни бир неча йил аввал тамомлаган ўқувчилар ҳам ўқишга қабул қилинади."
+            title: "9-sinfni bir necha yil avval tamomlagan o'quvchi o'qishga qabul qilinadimi?",
+            description: "Oliy ta'lim, fan va innovatsiyalar vazirligining ko'rsatmalariga asosan, 9-sinfni bir necha yil avval tamomlagano'quvchilar ham o'qishga qabul qilinadi."
         },
         {
-          title: "Дарс машғулотлари қандай вақтларда олиб борилади?",
-          description: "Ўқувчилар сонига қараб 1 ёки 2 сменада: 1-смена 13:30 гача, 2-смена 18:00 гача."
+            title: "Dars mashg'ulotlari qanday vaqtlarda olib boriladi?",
+            description: "O'quvchilar soniga qarab 1 yoki 2 smenada: 1-smena 13:30 gacha, 2-smena 18:00 gacha."
         },
         {
-          title: "Таълим муассасасида кундузги, кечки ва сиртқи таълим шакллари мавжудми?",
-          description: "2025–2026 ўқув йилида кундузги ва \"Дуал\" таълим йўлга қўйилган. Кечки ва сиртқи таълим шаклларини йўлга қўйиш режалаштирилган."
+            title: "Ta'lim muassasasida kunduzgi, kechki va sirtqi ta'lim shakllari mavjudmi?",
+            description: "2025–2026 o'quv yilida kunduzgi va \"Dual\" ta'lim yo'lga qo'yilgan. Kechki va sirtqi ta'lim shakllarini yo'lga qo'yish rejalashtirilgan."
         }
-      ];      
+    ];
 
     return (
         <div className='mb-10'>
