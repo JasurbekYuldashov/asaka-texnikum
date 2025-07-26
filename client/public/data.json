@@ -46,7 +46,7 @@
       "Description": "1995 yil Andijon davlat tillar pedagogika institutini tamomlagan",
       "qabul": "Qabul kunlari dushanbadan jumagacha soat 13 00 dan 16 00 gacha",
       "PageLink": "/academics/departments/ece",
-      "BannerPic": "/images/direktor.png",
+      "BannerPic": "/images/direktor.jpg",
       "PageRouteData": {
         "DepartmentName": "Elektronika va aloqa muhandisligi bo'limi",
         "YearofEstablishment": "2003-yil iyul",
@@ -59,10 +59,10 @@
       "Title": "O‘quv ishlar bo‘yicha direktor o‘rinbosari",
       "Keyword": "direktor o‘rinbosari",
       "ism": "Mirzaev Akramjon Djumanazarovich",
-      "Description": "4 yillik kompyuter fanlari va muhandisligi bo'yicha B.Tech dasturi. Bo'lim boshlig'i: Prof. Jamshid Karimov",
+      "Description": "2004 yil Toshkent davlat texnika universitetini tamomlagan",
       "qabul": "Qabul kunlari dushanbadan jumagacha soat 13 00 dan 16 00 gacha",
       "PageLink": "/academics/departments/cse",
-      "BannerPic": "/images/akramjon.png",
+      "BannerPic": "/images/akramjon.jpg",
       "PageRouteData": {
         "DepartmentName": "Kompyuter fanlari va muhandisligi bo'limi",
         "YearofEstablishment": "2003-yil iyul",
@@ -94,7 +94,7 @@
       "Description": " 1988 yil Sverdlovsk muhandislik muallimlik institutini tamomlagan",
       "qabul": "Qabul kunlari dushanbadan jumagacha soat 13 00 dan 16 00 gacha",
       "PageLink": "/academics/departments/ee",
-      "BannerPic": "/images/maxudjon.png",
+      "BannerPic": "/images/maxmudjon.jpg",
       "PageRouteData": {
         "DepartmentName": "Elektrotexnika muhandisligi bo'limi",
         "YearofEstablishment": "2003-yil iyul",
@@ -107,10 +107,10 @@
       "Title": "O‘quv bo‘lim uslubchisi",
       "Keyword": "O‘quv bo‘lim uslubchisi",
       "ism": "G‘aniyeva Dildora Axmadjonovna",
-      "Description": "4 yillik elektr va elektronika muhandisligi bo'yicha B.Tech dasturi. Bo'lim boshlig'i: Prof. Oybek Raxmonov",
+      "Description": "2011 yil Andijon davlat universitetini tamomlagan",
       "qabul": "Qabul kunlari dushanbadan jumagacha soat 13 00 dan 16 00 gacha",
       "PageLink": "/academics/departments/eee",
-      "BannerPic": "/images/dildora.png",
+      "BannerPic": "/images/dildora.jpg",
       "PageRouteData": {
         "DepartmentName": "Elektr va elektronika muhandisligi bo'limi",
         "YearofEstablishment": "2020-yil iyul",
