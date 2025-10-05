@@ -86,19 +86,13 @@ export default function Footer() {
               <h2 className="title-font font-bold text-white tracking-widest text-lg mb-3">Ijtimoiy tarmoqlar</h2>
               <nav className="list-none mb-10">
                 <li>
-                  <a target='_blank' href='#' className="text-white hover:text-gray-300 cursor-pointer"> &#8658; Telegram</a>
+                  <a target='_blank' href='https://t.me/APT_rasmiy' className="text-white hover:text-gray-300 cursor-pointer"> &#8658; Telegram</a>
                 </li>
                 <li>
-                  <a target='_blank' href='#' className="text-white hover:text-gray-300 cursor-pointer"> &#8658; Instagram</a>
+                  <a target='_blank' href='https://www.facebook.com/share/1fNXtovooS/' className="text-white hover:text-gray-300 cursor-pointer"> &#8658; Facebook</a>
                 </li>
                 <li>
-                  <a target='_blank' href='#' className="text-white hover:text-gray-300 cursor-pointer"> &#8658; YouTube</a>
-                </li>
-                <li>
-                  <a target='_blank' href='#' className="text-white hover:text-gray-300 cursor-pointer"> &#8658; O'quv portali</a>
-                </li>
-                <li>
-                  <a target='_blank' href='#' className="text-white hover:text-gray-300 cursor-pointer"> &#8658; Innovatsion markaz</a>
+                  <a target='_blank' href='https://www.instagram.com/apt_rasmiy?igsh=OGcwdzU2eXF4MTI' className="text-white hover:text-gray-300 cursor-pointer"> &#8658; Instagram</a>
                 </li>
 
               </nav>
@@ -108,7 +102,7 @@ export default function Footer() {
               <h2 className="title-font font-bold text-white tracking-widest text-lg mb-3">Manzil</h2>
 
               <p className="text-white hover:text-gray-300 cursor-pointer">Andijon viloyati,</p>
-              <p className="text-white hover:text-gray-300 cursor-pointer">Asaka tumani, Chok MFY,</p>
+              <p className="text-white hover:text-gray-300 cursor-pointer">Asaka tumani, Chek MFY,</p>
               <p className="text-white hover:text-gray-300 cursor-pointer">Marg'iloniy ko'chasi, 93-a-uy</p>
               <p className="text-white hover:text-gray-300 cursor-pointer">O'zbekiston, 170200</p>
               <p className="text-white hover:text-gray-300 cursor-pointer">asaka.politexnikum@edu.uz</p>
@@ -125,26 +119,20 @@ export default function Footer() {
                 <a rel="noopener noreferrer" className="text-gray-300 ml-1" target="_blank">@asakapolytechnic</a>
               </p>
               <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-                <a className="text-gray-300" href='https://m.facebook.com/profile.php?id=100067475193505&name=xhp_nt_' target='_blank'>
+                <a className="text-gray-300" href='https://t.me/APT_rasmiy' target='_blank'>
+                  <svg fill="currentColor" className="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.161c-.18 1.897-.962 6.502-1.359 8.627-.168.9-.5 1.201-.82 1.23-.697.064-1.226-.461-1.901-.903-1.056-.692-1.653-1.123-2.678-1.799-1.185-.781-.417-1.21.258-1.911.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.139-5.062 3.345-.479.329-.913.489-1.302.481-.428-.008-1.252-.241-1.865-.44-.752-.244-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635.099-.001.321.023.465.141.121.099.154.232.17.325.016.093.036.305.02.471z"/>
+                  </svg>
+                </a>
+                <a className="ml-3 text-gray-300" href='https://www.facebook.com/share/1fNXtovooS/' target='_blank'>
                   <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
                     <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                   </svg>
                 </a>
-                <a className="ml-3 text-gray-300">
-                  <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
-                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                  </svg>
-                </a>
-                <a className="ml-3 text-gray-300" href='https://www.instagram.com/aotconnect/' target='_blank'>
+                <a className="ml-3 text-gray-300" href='https://www.instagram.com/apt_rasmiy?igsh=OGcwdzU2eXF4MTI' target='_blank'>
                   <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
                     <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
                     <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-                  </svg>
-                </a>
-                <a className="ml-3 text-gray-300" href='https://www.linkedin.com/school/academy-of-technology/' target='_blank'>
-                  <svg fill="currentColor" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="0" className="w-5 h-5" viewBox="0 0 24 24">
-                    <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z" ></path>
-                    <circle cx="4" cy="4" r="2" stroke="none"></circle>
                   </svg>
                 </a>
               </span>
