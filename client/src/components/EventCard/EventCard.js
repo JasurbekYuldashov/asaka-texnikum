@@ -9,13 +9,16 @@ export default function EventCard({ data }) {
 	const [ReadMore, setReadMore] = useState(false);
 	const { authUser, IsLoading, setAuthUser } = useAuth();
 
-	// Rasm URL'ni to'g'rilash
+	// Rasm URL'ni to'g'rilash - Next.js proxy orqali
 	const getImageUrl = (url) => {
 		if (!url) return '/placeholder.jpg';
+
 		// Agar to'liq URL bo'lsa (Cloudinary), shunday qaytarish
 		if (url.startsWith('http')) return url;
-		// Agar nisbiy yo'l bo'lsa, server URL qo'shish
-		return process.env.NEXT_PUBLIC_SERVERURL + url;
+
+		// Next.js proxy orqali: /events/file.jpg -> localhost:4000/events/file.jpg
+		// Lekin browser uchun faqat /events/file.jpg ko'rinadi
+		return url; // Next.js rewrites avtomatik proxy qiladi
 	};
 
 	return (

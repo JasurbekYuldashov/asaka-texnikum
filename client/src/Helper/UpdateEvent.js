@@ -2,9 +2,8 @@ import axios from "axios";
 export const UpdateEvent = (title, details, id) => {
     return new Promise(async (resolve, reject) => {
         try {
-            // Fetch API
-            const fetchlink = process.env.NEXT_PUBLIC_SERVERURL;
-            const { data } = await axios.post(fetchlink + "/api/v1/event/edit/" + id,
+            // Next.js proxy orqali
+            const { data } = await axios.post("/api/v1/event/edit/" + id,
                 {
                     title,
                     details

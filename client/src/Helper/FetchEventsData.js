@@ -1,7 +1,7 @@
 const FetchEventsData = () => {
     return new Promise(async (resolve, reject) => {
         try {
-            const response = await fetch(process.env.NEXT_PUBLIC_SERVERURL + '/api/v1/event/all');
+            const response = await fetch('/api/v1/event/all');
            
             const data = await response.json();
             resolve({
