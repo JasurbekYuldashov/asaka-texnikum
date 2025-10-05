@@ -1,5 +1,6 @@
 const express = require("express");
 const dotenv = require("dotenv");
+const path = require("path");
 const adminRouter = require("./route/admin.route.js");
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
@@ -23,6 +24,9 @@ app.use(
 app.use(express.json());
 
 app.use(cookieParser());
+
+// Static files (rasmlar) uchun
+app.use('/events', express.static(path.join(__dirname, '../public/events')));
 
 app.use("/api/v1", adminRouter);
 

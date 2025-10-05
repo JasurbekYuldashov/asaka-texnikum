@@ -1,23 +1,30 @@
 import axios from "axios";
-export const CreateEvent = (title, details, posterURL) => {
+
+export const CreateEvent = (title, details, file) => {
     return new Promise(async (resolve, reject) => {
         try {
-            // Fetch API
             const fetchlink = process.env.NEXT_PUBLIC_SERVERURL;
-            const { data } = await axios.post(fetchlink + "/api/v1/event/upload",
+
+            // FormData yaratish
+            const formData = new FormData();
+            formData.append('title', title);
+            formData.append('details', details);
+            formData.append('event', file); // 'event' - multer.single("event") ga mos
+
+            const { data } = await axios.post(
+                fetchlink + "/api/v1/event/upload",
+                formData,
                 {
-                    title,
-                    details,
-                    posterURL
-                },
-                {
-                    withCredentials: true
+                    withCredentials: true,
+                    headers: {
+                        'Content-Type': 'multipart/form-data'
+                    }
                 }
             );
             resolve(data);
         } catch (error) {
             console.error('Error fetching data:', error);
-            reject(error?.response.data);
+            reject(error?.response?.data || error);
         }
     })
 }

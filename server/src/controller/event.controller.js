@@ -1,32 +1,64 @@
 const { Event } = require("../model/events.model.js");
-const { uploadOnCloudinary } = require("../utils/cloudinary.js");
 
 const createEvent = async (req, res) => {
     try {
-        const { title, details,posterURL } = req.body;
+        const { title, details } = req.body;
+
+        console.log('Create event request:', {
+            title,
+            details,
+            hasFile: !!req.file,
+            file: req.file ? {
+                filename: req.file.filename,
+                mimetype: req.file.mimetype,
+                size: req.file.size
+            } : null
+        });
+
+        // Multer orqali yuklangan fayl
+        if (!req.file) {
+            return res
+                .status(400)
+                .json({ success: false, message: "Rasm yuklash majburiy" });
+        }
+
         if (
-            [title, details,posterURL].some(
+            [title, details].some(
                 (field) => typeof field !== "string" || field.trim() === ""
             )
         ) {
             return res
                 .status(400)
-                .json({ success: false, message: "insufficient data" });
+                .json({ success: false, message: "Ma'lumotlar to'liq emas" });
         }
+
+        // Fayl yo'lini yaratish (server URL bilan)
+        const posterURL = `/events/${req.file.filename}`;
+
         await Event.create({
             title,
             details,
             posterURL,
-            author : req.admin
+            author: req.admin
         });
+
+        console.log('Event created successfully:', posterURL);
+
         return res
             .status(200)
-            .json({ success: true, message: "event uploaded" });
+            .json({
+                success: true,
+                message: "Tadbir muvaffaqiyatli yaratildi",
+                posterURL
+            });
     } catch (error) {
-        console.log(error)
+        console.error('Create event error:', error);
         return res
             .status(500)
-            .json({ success: false, message: "something went wrong" });
+            .json({
+                success: false,
+                message: error.message || "Xatolik yuz berdi"
+            });
     }
 };
 

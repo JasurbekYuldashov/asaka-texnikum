@@ -12,11 +12,34 @@ const isAdmin = require("../middleware/admin.middleware");
 
 const eventRouter = express.Router();
 
+// Multer error handling middleware
+const handleMulterError = (err, req, res, next) => {
+    if (err) {
+        console.error('Multer error:', err);
+        return res.status(400).json({
+            success: false,
+            message: err.message || 'Fayl yuklashda xatolik'
+        });
+    }
+    next();
+};
+
 eventRouter.post(
     "/upload",
-    // upload.fields([{ name: "event", maxCount: 1 }]),
     authenticateAdmin,
     isAdmin,
+    (req, res, next) => {
+        upload.single("event")(req, res, (err) => {
+            if (err) {
+                console.error('Multer error:', err);
+                return res.status(400).json({
+                    success: false,
+                    message: err.message || 'Fayl yuklashda xatolik'
+                });
+            }
+            next();
+        });
+    },
     createEvent
 );
 

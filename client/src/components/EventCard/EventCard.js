@@ -9,12 +9,21 @@ export default function EventCard({ data }) {
 	const [ReadMore, setReadMore] = useState(false);
 	const { authUser, IsLoading, setAuthUser } = useAuth();
 
+	// Rasm URL'ni to'g'rilash
+	const getImageUrl = (url) => {
+		if (!url) return '/placeholder.jpg';
+		// Agar to'liq URL bo'lsa (Cloudinary), shunday qaytarish
+		if (url.startsWith('http')) return url;
+		// Agar nisbiy yo'l bo'lsa, server URL qo'shish
+		return process.env.NEXT_PUBLIC_SERVERURL + url;
+	};
+
 	return (
 		<>
 			{/* Card  */}
 			<AnimatedElement>
 				<div className="rounded-lg min-h-96">
-					<img className="md:h-48 h-40 w-full rounded-lg object-cover object-center" src={data.posterURL} alt="img" />
+					<img className="md:h-48 h-40 w-full rounded-lg object-cover object-center" src={getImageUrl(data.posterURL)} alt="img" />
 					<div className="p-2">
 						{/* <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2> */}
 						<h1 className="title-font text-lg font-bold text-gray-900 mb-3">{data.title}</h1>
