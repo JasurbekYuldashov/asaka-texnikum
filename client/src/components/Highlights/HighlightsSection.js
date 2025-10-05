@@ -5,7 +5,7 @@ import FetchHighlightsData from '@/Helper/FetchHighlightsData';
 import HighlightCard from './HighlightCard';
 import ParagraphSkeletonLoader from '../Common/SkeletonLoader/ParagraphSkeletonLoader';
 
-export default function HighlightsSection({ HorizontalScroll = true }) {
+export default function HighlightsSection({ HorizontalScroll = true, limit = null }) {
 
 	const [HighlightsData, setHighlightsData] = useState(null);
 	const [Loader, setLoader] = useState(false);
@@ -15,7 +15,8 @@ export default function HighlightsSection({ HorizontalScroll = true }) {
 		try {
 			const res = await FetchHighlightsData();
 			if (res.success) {
-				setHighlightsData(res.data);
+				// Apply limit if specified
+				setHighlightsData(limit ? res.data.slice(0, limit) : res.data);
 			}
 		} catch (error) {
 			console.error(error);

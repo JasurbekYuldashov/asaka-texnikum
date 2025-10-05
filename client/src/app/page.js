@@ -9,7 +9,7 @@ import HighlightsSection from '@/components/Highlights/HighlightsSection';
 import DepartmentsSection from '@/components/Departments/DepartmentsSection';
 
 
-// ==================== Home Page ==================== 
+// ==================== Home Page ====================
 export default function page() {
 
   useEffect(() => {
@@ -27,9 +27,9 @@ export default function page() {
       <CarouselCompo />
       <NoticeLine />
       <AboutCard />
-      <EventCardSection />
-      <HighlightsSection />
-      <DepartmentsSection />
+      <EventCardSection limit={6} />
+      <HighlightsSection limit={4} />
+      <DepartmentsSection limit={4} />
       <Accordion />
     </div>
   )

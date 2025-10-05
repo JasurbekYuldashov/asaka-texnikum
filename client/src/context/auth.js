@@ -19,8 +19,9 @@ export default function AdminAuth() {
             }
         } catch (error) {
             console.error(error);
+        } finally {
+            setIsLoading(false);
         }
-        setIsLoading(false);
     }
 
     useEffect(() => {

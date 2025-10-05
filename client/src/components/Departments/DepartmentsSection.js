@@ -5,7 +5,7 @@ import AnimatedElement from "@/components/Common/Animation/AnimatedElement";
 import FetchDepartmentsData from "@/Helper/FetchDepartmentsData";
 import ParagraphSkeletonLoader from "../Common/SkeletonLoader/ParagraphSkeletonLoader";
 
-export default function DepartmentsSection({ HorizontalScroll = true }) {
+export default function DepartmentsSection({ HorizontalScroll = true, limit = null }) {
   const [DepartmentsData, setDepartmentsData] = useState(null);
   const [Loader, setLoader] = useState(false);
 
@@ -14,7 +14,8 @@ export default function DepartmentsSection({ HorizontalScroll = true }) {
     try {
       const res = await FetchDepartmentsData();
       if (res.success) {
-        setDepartmentsData(res.data);
+        // Apply limit if specified
+        setDepartmentsData(limit ? res.data.slice(0, limit) : res.data);
       }
     } catch (error) {
       console.error(error);

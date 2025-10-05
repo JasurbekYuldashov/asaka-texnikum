@@ -5,7 +5,7 @@ import AnimatedElement from '@/components/Common/Animation/AnimatedElement';
 import FetchEventsData from '@/Helper/FetchEventsData';
 import ParagraphSkeletonLoader from '../Common/SkeletonLoader/ParagraphSkeletonLoader';
 
-export default function EventCardSection({ HorizontalScroll = true }) {
+export default function EventCardSection({ HorizontalScroll = true, limit = null }) {
 
 	const [EventsData, setEventsData] = useState(null);
 	const [Loader, setLoader] = useState(false);
@@ -17,7 +17,8 @@ export default function EventCardSection({ HorizontalScroll = true }) {
 			// console.warn(res)
 			if (res.success) {
 				const data = res.data.reverse();
-				setEventsData(data);
+				// Apply limit if specified
+				setEventsData(limit ? data.slice(0, limit) : data);
 			}
 		} catch (error) {
 			console.error(error);

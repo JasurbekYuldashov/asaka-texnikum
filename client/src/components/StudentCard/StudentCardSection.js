@@ -5,7 +5,7 @@ import AnimatedElement from '@/components/Common/Animation/AnimatedElement';
 import FetchStudentsData from '@/Helper/FetchStudentsData';
 import ParagraphSkeletonLoader from '../Common/SkeletonLoader/ParagraphSkeletonLoader';
 
-export default function StudentCardSection({ HorizontalScroll = true }) {
+export default function StudentCardSection({ HorizontalScroll = true, limit = null }) {
 
 	const [StudentsData, setStudentsData] = useState(null);
 	const [Loader, setLoader] = useState(false);
@@ -16,7 +16,8 @@ export default function StudentCardSection({ HorizontalScroll = true }) {
 			const res = await FetchStudentsData();
 			if (res.success) {
 				const data = res.data.reverse();
-				setStudentsData(data);
+				// Apply limit if specified
+				setStudentsData(limit ? data.slice(0, limit) : data);
 			}
 		} catch (error) {
 			console.error(error);

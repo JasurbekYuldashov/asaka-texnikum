@@ -20,6 +20,8 @@
 .fadeOut {
   opacity: 0;
   /* Reduce opacity to 0 to reveal content */
+  pointer-events: none;
+  /* Disable pointer events when fading out */
 }
 
 

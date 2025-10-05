@@ -9,14 +9,18 @@ export default function FirstLoadPage({ children }) {
   const [show, setShow] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => {
+    const showTimer = setTimeout(() => {
       setShow(true);
     }, 100);
 
-    const timer = setTimeout(() => {
+    const hideTimer = setTimeout(() => {
       setFirstLoad(false);
-    }, 600);
-    return () => clearTimeout(timer);
+    }, 800);
+
+    return () => {
+      clearTimeout(showTimer);
+      clearTimeout(hideTimer);
+    };
   }, []);
 
 
