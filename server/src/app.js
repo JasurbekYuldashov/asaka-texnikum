@@ -12,14 +12,28 @@ dotenv.config(".env");
 
 const app = express();
 
-app.use(
-    cors({
-        origin: process.env.FRONTEND_URI,
-        methods: ["GET", "POST", "PUT", "DELETE"],
-        allowedHeaders: ["Content-Type", "Authorization"],
-        credentials: true,
-    })
-);
+// CORS sozlamalari
+const isDevelopment = process.env.NODE_ENV !== 'production';
+
+const corsOptions = {
+    // origin: isDevelopment
+    //     ? true // Development: barcha origin'lar
+    //     : process.env.FRONTEND_URI, // Production: faqat frontend URL
+    origin:true,
+    methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization", "Cookie"],
+    credentials: true,
+    optionsSuccessStatus: 200
+};
+
+app.use(cors(corsOptions));
+
+// Development rejimini ko'rsatish
+if (isDevelopment) {
+    console.log('🔓 CORS: Barcha origin\'lar ruxsat etilgan (Development mode)');
+} else {
+    console.log('🔒 CORS: Faqat', process.env.FRONTEND_URI, 'ruxsat etilgan (Production mode)');
+}
 
 app.use(express.json());
 
