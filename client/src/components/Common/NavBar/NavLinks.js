@@ -48,7 +48,7 @@ function NavLinks() {
     },
     {
       title: "Talabalar",
-      path: "/alumni",
+      path: "/students",
     },
     // {
     //   title: "Administration",

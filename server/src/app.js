@@ -7,6 +7,7 @@ const cors = require("cors");
 const eventRouter = require("./route/event.route.js");
 const noticeRouter = require("./route/notice.route.js");
 const carouselRouter = require("./route/carousel.route.js");
+const studentRouter = require("./route/student.route.js");
 
 dotenv.config(".env");
 
@@ -41,6 +42,7 @@ app.use(cookieParser());
 
 // Static files (rasmlar) uchun
 app.use('/events', express.static(path.join(__dirname, '../public/events')));
+app.use('/students', express.static(path.join(__dirname, '../public/students')));
 
 app.use("/api/v1", adminRouter);
 
@@ -49,6 +51,8 @@ app.use("/api/v1/event", eventRouter);
 app.use("/api/v1/notice", noticeRouter);
 
 app.use("/api/v1/carousel", carouselRouter);
+
+app.use("/api/v1/student", studentRouter);
 
 app.get("/", (req, res) => {
     res.send("Working");

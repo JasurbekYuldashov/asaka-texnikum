@@ -10,6 +10,10 @@ const nextConfig = {
         source: '/events/:path*',
         destination: 'http://localhost:4000/events/:path*',
       },
+      {
+        source: '/students/:path*',
+        destination: 'http://localhost:4000/students/:path*',
+      },
     ];
   },
   images: {

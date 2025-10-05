@@ -50,6 +50,12 @@ const Page = () => {
           {/* <Link className="md:w-1/2 w-full h-auto flex justify-center items-center" href={"editevent"}>
             <DashboardCard itemName="Tadbirni tahrirlash" />
           </Link> */}
+          <Link className="md:w-1/2 w-full h-auto flex justify-center items-center" href={"createstudent"}>
+            <DashboardCard itemName="Talaba qo'shish" />
+          </Link>
+          <Link className="md:w-1/2 w-full h-auto flex justify-center items-center" href={"/students"}>
+            <DashboardCard itemName="Talabalarni ko'rish" />
+          </Link>
           <Link className="md:w-1/2 w-full h-auto flex justify-center items-center" href={"#"}>
             <DashboardCard itemName="E'lon yaratish" />
           </Link>
